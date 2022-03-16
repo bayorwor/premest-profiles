@@ -8,7 +8,7 @@ function App() {
         {writers.map((writer) => (
           <div key={writer.id} className="card">
             <img
-              src={`images/${writer.avatar}.png`}
+              src={`./images/${writer.avatar}.png`}
               height="300px"
               width="300px"
               alt={writer.img}
